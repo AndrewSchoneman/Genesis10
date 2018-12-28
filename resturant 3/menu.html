@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Our Menu</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css"/>
+        <noscript>JavaScript is off. This site will work better if it is enabled.</noscript>
+        <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet" type="text/css">
+
+        <style>
+
+            body {
+                background-color: #D9E8F0;
+            }
+            h3, h4, th, .bev, .price {
+                font-family: 'Staatliches';
+            }
+            #disclaimer {
+                font-size: .8em;
+            }
+
+            #menu {
+                justify-content: left;
+            }
+            #menu-item {
+                float:none;
+                border: thin solid black;
+                height: 300px;
+                width: 100%;
+                margin: 10px 0 10px 20px;
+            }
+
+            th {
+                font-size: 2em;
+                background-color: #D9E8F0;
+                text-align: center;
+            }
+            tr:nth-child(odd) {
+                background-color: teal;     
+                       
+            }
+
+            #table-title{
+                color:black;
+            }
+            table{
+                align-content: center;
+                background-size: 20%;
+                height: 200px;
+                width: 400px;
+                margin: auto;
+                border: thin solid black;
+                font-size: 25px;
+                font-family: "Staatliches";
+            }
+            .description{
+                font-size: 13px
+            }
+        </style>
+
+    </head>
+    <body>
+        <header class="jumbotron">
+            <div class="container">
+                    <h1 class="resturant-title" align="center" style="font-family: Acme">Ristorante Italiano</h1>
+                    <h3 class="text-right">Opening a new location downtown</h3>
+            </div>
+        </header>
+
+
+        <div id="nav-bar">
+            <nav>
+                <div class="col-md">
+                    <a class="btn" href="index.html">
+                        <img id="homeButton" src="images/home_icon.png" alt="Home"/></a>
+                    <a class="btn" href="#">Menu</a>
+                    <a class="btn" href="contact.html">Contact Us</a>
+                </div>
+            </nav>
+            </div>
+
+       </div>
+
+
+        <div class="container" id="menu">
+                <div class="container" id="menu-item">
+                    <h3>Spaghetti</h3>
+                    <div class="description">
+                        <p>
+                        Spaghetti with a simple and aromatic marinara sauce, fresh mozzarella and basil.
+                        </p>
+                    </div>
+                    <h4>$10.99</h4>
+                    <img src="images/spaghetti.jpeg" alt="spaghetti" align="center" width="200px" height="150px">
+                </div>
+                <div class="container" id="menu-item">
+                    <h3>Penne Sardi</h3>
+                    <div class="description">
+                        <p>     
+                        Penne pasta tossed with grilled chicken, wild mushrooms, caramelized onions and a sun-dried tomato cream sauce.
+                        Finished in the oven with a topping of crispy garlic and oregano seasoned breadcrumbs.
+                        </p>
+                    </div>
+                    <h4>$13.99</h4>
+                    <img src="images/penne.jpg" alt="spaghetti" align="center" width="200px" height="150px">
+
+                </div>
+
+                <div class="container" id="menu-item">
+                    <h3>Lasagna Bolognese</h3>
+                    <div class="description">
+                        <p>
+                        Pasta layered with our hearty meat sauce and a three-cheese cream sauce then baked until golden
+                        </p>
+                    </div>
+                    <h4>$13.99</h4>
+                    <img src="images/lasagne.jpg" alt="spaghetti" align="center" width="200px" height="150px">
+                </div>
+                <div class="container" id="menu-item">
+                    <h3>Ravioli Quattro Formaggi</h3>
+                    <div class="description">
+                        <p>
+                        Homemade ravioli filled with a blend of ricotta, parmesan, romano and blue cheeses. 
+                        Tossed in a delicate cream sauce with a touch of fresh basil and pine nut pesto and served over fresh tomato sauce.
+                        </p>
+                    </div>
+                    <h4>$13.99</h4>
+                    <img src="images/ravioli.jpg" alt="spaghetti" align="center" width="200px" height="150px">
+
+                </div>
+
+        </div>
+
+        <div class="clear-float"></div>
+
+
+
+
+
+        <hr/>
+    <div class= "beverage-table">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <p align="center"><strong>Beverages</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Root Beer</p>
+                    </td>
+                    <td>
+                        <p>$3.00</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Bottled Water</p>
+                    </td>
+                    <td>
+                        <p>$1.25</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Lemonade</p>
+                    </td>
+                    <td>
+                        <p>$1.00</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Iced Tea</p>
+                    </td>
+                    <td>
+                        <p>$1.25</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+        <footer>
+            <div >
+                <h5 id="address" align="center">1640 Broadway, Cedar Rapids, IA7</h5>
+                <h5 id="phone" align="center">319-584-6456</h5>
+            </div>
+        </footer>
+        <script src="scripts/js/jquery-3.3.1.min.js"></script>
+        <script src="scripts/js/bootstrap.min.js"></script>
+</html>
+

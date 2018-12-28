@@ -1,0 +1,57 @@
+h1 {
+    background: #ffc600;
+    border-bottom: 5px solid #F3C010;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px 0 #F3C010;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:  url("dice2.JPG");
+    background-color: #3BC1AC;
+    min-height: 100vh;
+    align-items: center;
+}
+.start{
+    width: 10.4%;
+    border: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    display: block;
+}
+.bet-title{
+    color:  #ffc600;
+    font-size: 40px;
+}
+.bet{
+    width: 10%;
+    background-color: #ffc600;
+    font-size: 30px;
+}
+.results{
+    color:  #ffc600;
+    font-size: 30px;
+}
+.starting-bet,
+.max,
+.rolls,
+.turns{
+  width: 40%;
+  display: block;
+  margin: 00px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border: 20px;
+  border-color: crimson;
+  font-size: 1rem;
+  background:#ffc600;
+  outline: 0;
+}

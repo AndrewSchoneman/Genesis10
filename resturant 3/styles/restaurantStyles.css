@@ -1,0 +1,86 @@
+footer {
+  background-color: #44ADCD;
+}
+
+body {
+  background-color: #D9E8F0;
+}
+
+header,footer {
+  font-family: "Staatliches";
+  color: black; 
+}
+
+
+.heading{
+  font-family: "Acme";
+}
+.contact{
+  padding: 10px;
+  margin-left: 200px;
+}
+
+#announcement {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+.nav-bar{
+  padding: 10px;
+  height: 10px;
+}
+
+
+footer h5 {
+  padding-top: 5px;
+  padding-bottom:5px;
+  margin: 2px
+}
+#carouselIndicators{
+  padding: 10px;
+}
+
+
+nav a {
+  margin-left: 10px;
+
+}
+.jumbotron{
+  background-color: teal;
+  color: white;
+}
+nav .btn:visited {
+  color: white;
+}
+nav .btn {
+  text-decoration: none;
+  background-color: #44ADCD;
+  color: white;
+}
+
+
+nav .btn:hover {
+  font-weight: bold;
+}
+
+#homeButton {
+  width: 50px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+#footer{
+  position:fixed;
+  bottom:0;
+  background:#44ADCD;
+  width:100%;
+ }
+
+
+#homeButton {
+  width: 20px;
+}
